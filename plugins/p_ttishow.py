@@ -52,7 +52,7 @@ async def save_group(bot, message):
                 except:
                     pass
             temp.MELCOW['welcome'] = await message.reply(f"<b>Hey , {u.mention}, Welcome to {message.chat.title}  \n\n\n 𝙒𝙝𝙖𝙩 𝙮𝙤𝙪 𝙂𝙚𝙩 𝙃𝙚𝙧𝙚   \n📥📥📥📥 \n\n✅ 𝙈𝙤𝙫𝙞𝙚𝙨 ✅  \n✅ 𝙒𝙚𝙗 𝙎𝙚𝙧𝙞𝙚𝙨 ✅  \n✅ 𝘼𝙣𝙙 𝙈𝙪𝙘𝙝 𝙈𝙤𝙧𝙚 ✅  \n\n\n 🟥 𝐖𝐫𝐢𝐭𝐞 𝐌𝐨𝐯𝐢𝐞𝐬/𝐒𝐞𝐫𝐢𝐞𝐬 𝐍𝐚𝐦𝐞 𝐖𝐢𝐭𝐡 ❗️ 𝐂𝐨𝐫𝐫𝐞𝐜𝐭 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠 𝐨𝐫 𝐘𝐨𝐮 𝐦𝐚𝐲  𝐧𝐨𝐭 𝐠𝐞𝐭 𝐲𝐨𝐮𝐫 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 🔰 \n\n @PowerFilterRoBot </b>")
-                 reply_markup=InlineKeyboardMarkup(
+                  
                 
 
 
