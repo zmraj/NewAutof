@@ -2,7 +2,7 @@
   <img src="assets/logo.jpg" alt=" AUTO POWER FILTER BOT">
 </p>
 <h1 align="center">
-  <b>Adv AUTO FILTER BOT</b>
+  <b> AUTO POWER FILTER BOT</b>
 </h1>
 
 
