@@ -53,29 +53,7 @@ async def save_group(bot, message):
                     pass
             temp.MELCOW['welcome'] = await message.reply(f"<b>Hey , {u.mention}, Welcome to {message.chat.title}  \n\n\n 𝙒𝙝𝙖𝙩 𝙮𝙤𝙪 𝙂𝙚𝙩 𝙃𝙚𝙧𝙚   \n📥📥📥📥 \n\n✅ 𝙈𝙤𝙫𝙞𝙚𝙨 ✅  \n✅ 𝙒𝙚𝙗 𝙎𝙚𝙧𝙞𝙚𝙨 ✅  \n✅ 𝘼𝙣𝙙 𝙈𝙪𝙘𝙝 𝙈𝙤𝙧𝙚 ✅  \n\n\n 🟥 𝐖𝐫𝐢𝐭𝐞 𝐌𝐨𝐯𝐢𝐞𝐬/𝐒𝐞𝐫𝐢𝐞𝐬 𝐍𝐚𝐦𝐞 𝐖𝐢𝐭𝐡 ❗️ 𝐂𝐨𝐫𝐫𝐞𝐜𝐭 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠 𝐨𝐫 𝐘𝐨𝐮 𝐦𝐚𝐲  𝐧𝐨𝐭 𝐠𝐞𝐭 𝐲𝐨𝐮𝐫 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 🔰 \n\n @PowerFilterRoBot </b>")
                  reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton("🔥 𝐍𝐄𝐖 𝐑𝐄𝐋𝐄𝐀𝐒𝐄𝐃 𝐌𝐎𝐕𝐈𝐄𝐒 🔥 ", url="https://t.me/joinchat/v3xsNd1es3ozMWJl")
-                    ],
-                    [   InlineKeyboardButton('🎬🎬 𝗠𝗢𝗩𝗜𝗘𝗦 🎬🎬', url='https://t.me/joinchat/vii7DDEvKCZkNDVl'),
-                        InlineKeyboardButton('💢 𝗧𝗩 𝗦𝗘𝗥𝗜𝗘𝗦 💢', url='https://t.me/joinchat/Qea8OllY2QUzMDY1')    
-                       ],
-                       [
-                        InlineKeyboardButton("⭕️ 𝗠𝗢𝗩𝗜𝗘𝗦 𝗕𝗔𝗖𝗞𝗨𝗣 𝗖𝗛𝗔𝗡𝗡𝗘𝗟𝗦 ⭕️", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
-                        ],[
-                        InlineKeyboardButton("⭐️ 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 ⭐️", url="https://t.me/joinchat/sA2FXY_bFTc3YmQ9")
-                       ],[
-                        InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=http://t.me/PowerFilterRoBot')
-                    ]
-                ]
-            )
-         )
-
-
-
-
-
-
+                
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
