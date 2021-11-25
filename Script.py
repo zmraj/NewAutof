@@ -1,12 +1,12 @@
 class script(object):
     START_TXT = """𝙷𝙴𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href='https://t.me/MovizFilterRobot'>AUTOFILTERBOT</a>, 🙋, 𝗜'𝗺  ⚡️⚡️ 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹 𝗔𝘂𝘁𝗼-𝗙𝗶𝗹𝘁𝗲𝗿 𝗕𝗼𝘁  ⚡️⚡️ 𝗬𝗼𝘂 𝗖𝗮𝗻 𝗨𝘀𝗲 𝗠𝗲 𝗔𝘀 𝗔 𝗔𝘂𝘁𝗼-𝗳𝗶𝗹𝘁𝗲𝗿 𝗕𝗼𝘁 𝗜𝗻 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 ..
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href='http://t.me/PowerFilterRoBot'>AUTOFILTERBOT</a>, 🙋, 𝗜'𝗺  ⚡️⚡️ 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹 𝗔𝘂𝘁𝗼-𝗙𝗶𝗹𝘁𝗲𝗿 𝗕𝗼𝘁  ⚡️⚡️ 𝗬𝗼𝘂 𝗖𝗮𝗻 𝗨𝘀𝗲 𝗠𝗲 𝗔𝘀 𝗔 𝗔𝘂𝘁𝗼-𝗳𝗶𝗹𝘁𝗲𝗿 𝗕𝗼𝘁 𝗜𝗻 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 ..
 
 𝗜𝘁𝘀 𝗘𝗮𝘀𝘆 𝗧𝗼 𝗨𝘀𝗲 𝗠𝗲; 𝗝𝘂𝘀𝘁 𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 𝗔𝘀 𝗔𝗱𝗺𝗶𝗻, 𝗧𝗵𝗮𝘁𝘀 𝗔𝗹𝗹, 𝗶 𝘄𝗶𝗹𝗹 𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝗠𝗼𝘃𝗶𝗲𝘀 𝗧𝗵𝗲𝗿𝗲...🤓 😍"""
     HELP_TXT = """𝐇𝐄𝐘 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: 𝗔𝘂𝘁𝗼 𝗙𝗶𝗹𝘁𝗲𝗿 𝗕𝗼𝘁
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href='https://t.me/joinchat/vii7DDEvKCZkNDVl'>AUTO FILTER BOT</𝐚>
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href='http://t.me/PowerFilterRoBot'>AUTO FILTER BOT</𝐚>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
@@ -16,8 +16,8 @@ class script(object):
 -  It Is Private 😷
 - Source - 𝗔𝘂𝘁𝗼 𝗙𝗶𝗹𝘁𝗲𝗿 𝗕𝗼𝘁 Is Not A Open Source
 
-<b>DEVS:</b>
-- <a href=https://t.me/joinchat/vii7DDEvKCZkNDVl>AUTO FILTER BOT</a>"""
+<b>AutoFilterRoBot:</b>
+- <a href=http://t.me/PowerFilterRoBot>AUTO FILTER BOT</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and tessa will respond whenever a keyword is found the message
