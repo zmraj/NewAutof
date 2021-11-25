@@ -32,7 +32,7 @@ filebuttons = [
                        [
                        InlineKeyboardButton("⭐️ 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 ⭐️", url="https://t.me/joinchat/sA2FXY_bFTc3YmQ9")
                       ],[
-                        InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=https://t.me/joinchat/vii7DDEvKCZkNDVl')
+                        InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=http://t.me/PowerFilterRoBot')
                     ],
                     ]
 
@@ -342,7 +342,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     caption=f_caption,
                     reply_markup=InlineKeyboardMarkup(filebuttons)
                     )
-                await query.answer(' ✅✅ 𝗖𝗵𝗲𝗰𝗸 📍 @𝗠𝗼𝘃𝗶𝘇𝗙𝗶𝗹𝘁𝗲𝗿𝗥𝗼𝗯𝗼𝘁 📍 𝗣𝗠, 𝗜 𝗵𝗮𝘃𝗲 𝘀𝗲𝗻𝘁 𝗳𝗶𝗹𝗲𝘀 𝘁𝗼 𝘆𝗼𝘂𝗿 📍 @𝗠𝗼𝘃𝗶𝘇𝗙𝗶𝗹𝘁𝗲𝗿𝗥𝗼𝗯𝗼𝘁 📍 𝗶𝗻 𝗽𝗺 ✅✅',show_alert = True)
+                await query.answer(' ✅✅ 𝗖𝗵𝗲𝗰𝗸 📍 @PowerFilterRoBot 📍 𝗣𝗠, 𝗜 𝗵𝗮𝘃𝗲 𝘀𝗲𝗻𝘁 𝗳𝗶𝗹𝗲𝘀 𝘁𝗼 𝘆𝗼𝘂𝗿 📍  @PowerFilterRoBot 📍 𝗶𝗻 𝗽𝗺 ✅✅',show_alert = True)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !',show_alert = True)
         except PeerIdInvalid:
@@ -352,7 +352,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer(" 😒 𝗜 𝗟𝗶𝗸𝗲 𝗬𝗼𝘂𝗿 𝗦𝗺𝗮𝗿𝘁𝗻𝗲𝘀𝘀, 𝗕𝘂𝘁 𝗗𝗼𝗻'𝘁 𝗕𝗲 𝗢𝘃𝗲𝗿𝘀𝗺𝗮𝗿𝘁 😒 𝗪𝗶𝘁𝗵𝗼𝘂𝘁 𝗝𝗢𝗜𝗡 𝘁𝗵𝗶𝘀 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 𝘆𝗼𝘂 𝗰𝗮𝗻𝗻𝗼𝘁 𝘂𝘀𝗲 𝗯𝗼𝘁 😒          📍 @𝗠𝗼𝘃𝗶𝘇𝗙𝗶𝗹𝘁𝗲𝗿𝗥𝗼𝗯𝗼𝘁 📍   ",show_alert=True)
+            await query.answer(" 😒 𝗜 𝗟𝗶𝗸𝗲 𝗬𝗼𝘂𝗿 𝗦𝗺𝗮𝗿𝘁𝗻𝗲𝘀𝘀, 𝗕𝘂𝘁 𝗗𝗼𝗻'𝘁 𝗕𝗲 𝗢𝘃𝗲𝗿𝘀𝗺𝗮𝗿𝘁 😒 𝗪𝗶𝘁𝗵𝗼𝘂𝘁 𝗝𝗢𝗜𝗡 𝘁𝗵𝗶𝘀 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 𝘆𝗼𝘂 𝗰𝗮𝗻𝗻𝗼𝘁 𝘂𝘀𝗲 𝗯𝗼𝘁 😒          📍  @PowerFilterRoBot 📍   ",show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files = (await get_file_details(file_id))[0]
@@ -379,7 +379,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕➕ 𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽𝘀 ➕➕', url='https://t.me/MovizFilterRobot?startgroup=true')
+            InlineKeyboardButton('➕➕ 𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽𝘀 ➕➕', url='http://t.me/PowerFilterRoBot?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 𝗦𝗲𝗮𝗿𝗰𝗵 🔍', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 🤖', url='https://t.me/joinchat/vii7DDEvKCZkNDVl')
@@ -387,7 +387,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ℹ️ Help ℹ️', callback_data='help'),
             InlineKeyboardButton('😊 About 😊', callback_data='about')
            ],[
-            InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=https://t.me/joinchat/vii7DDEvKCZkNDVl')
+            InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=http://t.me/PowerFilterRoBot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -406,7 +406,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🏠 Home 🏠', callback_data='start'),
             InlineKeyboardButton('🔮 Status 🔮', callback_data='stats')
             ],[
-            InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=https://t.me/joinchat/vii7DDEvKCZkNDVl')
+            InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=http://t.me/PowerFilterRoBot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -422,7 +422,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🏠 Home🏠', callback_data='start'),
             InlineKeyboardButton('🔐 Close🔐 ', callback_data='close_data')
            ],[
-            InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=https://t.me/joinchat/vii7DDEvKCZkNDVl')
+            InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=http://t.me/PowerFilterRoBot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -560,7 +560,7 @@ async def auto_filter(client, message):
               text=f"""
 <b>🥺 Dear {message.from_user.mention}
 𝗦𝗼𝗿𝗿𝘆 𝗕𝗿𝗼 ,𝗡𝐎 𝐌𝐎𝐕𝐈𝐄𝐒/𝗦𝗲𝗿𝗶𝗲𝘀 𝗥𝗲𝗹𝗮𝘁𝗲𝗱 𝘁𝗼 𝘁𝗵𝗲 𝗚𝗶𝘃𝗲𝗻 𝗪𝗼𝗿𝗱 𝗪𝗮𝘀 𝗙𝗼𝘂𝗻𝗱                                                                                                                                     🥺
-     <i>🥺   𝗣𝗹𝗲𝗮𝘀𝗲 𝐖𝐫𝐢𝐭𝐞 🔥 𝐌𝐎𝐕𝐈𝐄𝐒 🔥 𝐍𝐚𝐦𝐞 𝐖𝐢𝐭𝐡 𝐂𝐨𝐫𝐫𝐞𝐜𝐭 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠 𝐨𝐫 𝐘𝐨𝐮 𝐦𝐚𝐲 𝐧𝐨𝐭 𝐠𝐞𝐭 𝐲𝐨𝐮𝐫 𝐑𝐞𝐪𝐮𝐞𝐬𝐭   \n\n 𝐨𝐫 𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭...  \n📤📤 𝐅𝐢𝐥𝐞 𝐢𝐬 𝐔𝐩𝐥𝐨𝐚𝐝𝐢𝐧𝐠?📤📤     \n 📣  @MovizFilterRobot  📣  </i></b>""",
+     <i>🥺   𝗣𝗹𝗲𝗮𝘀𝗲 𝐖𝐫𝐢𝐭𝐞 🔥 𝐌𝐎𝐕𝐈𝐄𝐒 🔥 𝐍𝐚𝐦𝐞 𝐖𝐢𝐭𝐡 𝐂𝐨𝐫𝐫𝐞𝐜𝐭 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠 𝐨𝐫 𝐘𝐨𝐮 𝐦𝐚𝐲 𝐧𝐨𝐭 𝐠𝐞𝐭 𝐲𝐨𝐮𝐫 𝐑𝐞𝐪𝐮𝐞𝐬𝐭   \n\n 𝐨𝐫 𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭...  \n📤📤 𝐅𝐢𝐥𝐞 𝐢𝐬 𝐔𝐩𝐥𝐨𝐚𝐝𝐢𝐧𝐠?📤📤     \n 📣 @PowerFilterRoBot  📣  </i></b>""",
           reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -574,7 +574,7 @@ async def auto_filter(client, message):
                         ],[
                         InlineKeyboardButton("⭐️ 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 ⭐️", url="https://t.me/joinchat/sA2FXY_bFTc3YmQ9")
                        ],[
-                        InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=https://t.me/joinchat/vii7DDEvKCZkNDVl')
+                        InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=http://t.me/PowerFilterRoBot')
                     ]
                 ]
             )
@@ -602,5 +602,5 @@ async def auto_filter(client, message):
         elif imdb:
             await message.reply_text(f"<b>Query: {search}</b> \n‌‌‌‌IMDb Data:\n\n🏷 Title: <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Genres: {imdb.get('genres')}\n📆 Year: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Rating: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10", reply_markup=InlineKeyboardMarkup(btn))
         else:
-            await message.reply_text(f"<b>🔍 𝗛𝗲𝗿𝗲 𝗶𝘀 𝗥𝗲𝘀𝘂𝗹𝘁𝘀 𝗙𝗼𝗿 𝗬𝗼𝘂𝗿 𝗥𝗲𝗾𝘂𝗲𝘀𝘁  📣  @MovizFilterRobot  📣  {search} ‌‌‌‌‎ 🔍</b>", reply_markup=InlineKeyboardMarkup(btn))
+            await message.reply_text(f"<b>🔍 𝗛𝗲𝗿𝗲 𝗶𝘀 𝗥𝗲𝘀𝘂𝗹𝘁𝘀 𝗙𝗼𝗿 𝗬𝗼𝘂𝗿 𝗥𝗲𝗾𝘂𝗲𝘀𝘁  📣  @PowerFilterRoBot  📣  {search} ‌‌‌‌‎ 🔍</b>", reply_markup=InlineKeyboardMarkup(btn))
         
