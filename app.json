@@ -14,8 +14,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/zmraj/Adv-AUTO-FILTER-BOT",
-    "repository": "https://github.com/zmraj/Adv-AUTO-FILTER-BOT",
+    "website": "https://github.com/zmraj/POWER-Filter-BOT.git",
+    "repository": "https://github.com/zmraj/POWER-Filter-BOT.git",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
