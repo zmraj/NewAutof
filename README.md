@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.jpg" alt="Adv AUTO FILTER BOT">
+  <img src="assets/logo.jpg" alt=" AUTO POWER FILTER BOT">
 </p>
 <h1 align="center">
   <b>Adv AUTO FILTER BOT</b>
@@ -47,7 +47,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/zmraj/Adv-AUTO-FILTER-BOT.git">
+<a href="https://heroku.com/deploy?template=https://github.com/zmraj/POWER-Filter-BOT.git">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -56,7 +56,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/zmraj/Adv-AUTO-FILTER-BOT.git
+git clone https://github.com/zmraj/POWER-Filter-BOT.git
 # Install Packages
 pip3 install -r requirements.txt
 Edit info.py with variables as given below then run bot
@@ -93,8 +93,8 @@ python3 bot.py
 • /broadcast - to broadcast a message to all Eva Maria users
 ```
 ## Support
-[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://t.me/MovizFilterRobot)
-[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://t.me/MovizFilterRobot)
+[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://t.me/powerFilterRobot)
+[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://t.me/powerFilterRobot)
 
 ## Credits 
 * [![EvaMaria-Devs](https://img.shields.io/static/v1?label=EvaMaria&message=devs&color=critical)](https://telegram.dog/EvaMariaDevs)
