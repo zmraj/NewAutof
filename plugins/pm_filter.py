@@ -33,6 +33,9 @@ filebuttons = [
                        InlineKeyboardButton("⭐️ 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 ⭐️", url="https://t.me/joinchat/sA2FXY_bFTc3YmQ9")
                       ],[
                         InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=http://t.me/PowerFilterRoBot')
+                    
+                     ],[
+                    InlineKeyboardButton('🔎🔎 Search 🔎🔎', switch_inline_query_current_chat='')
                     ],
                     ]
 
